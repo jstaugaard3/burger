@@ -1,0 +1,16 @@
+{{!-- <li> --}}
+
+	<div class="container" id="insideContainer">
+		<div class="row">
+
+			{{id}} {{burger_name}}
+
+
+			<button class="change-devoured btn btn-danger btn-sm" data-id="{{id}}" data-newdevoured="{{devoured}}">
+				{{#if devoured}}Devour!{{/if}}
+			</button>
+
+		</div>
+	</div>
+
+	{{!-- </li> --}}
